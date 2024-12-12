@@ -1,0 +1,281 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" media="all" href="https://dev-mccd-gc-intra.pantheonsite.io/core/modules/system/css/components/ajax-progress.module.css?ryqmqm">
+		<link rel="stylesheet" media="all" href="https://dev-mccd-gc-intra.pantheonsite.io/core/modules/system/css/components/align.module.css?ryqmqm">
+		<link rel="stylesheet" media="all" href="https://dev-mccd-gc-intra.pantheonsite.io/core/modules/system/css/components/autocomplete-loading.module.css?ryqmqm">
+		<link rel="stylesheet" media="all" href="https://dev-mccd-gc-intra.pantheonsite.io/core/modules/system/css/components/fieldgroup.module.css?ryqmqm">
+		<link rel="stylesheet" media="all" href="https://dev-mccd-gc-intra.pantheonsite.io/core/modules/system/css/components/container-inline.module.css?ryqmqm">
+		<link rel="stylesheet" media="all" href="https://dev-mccd-gc-intra.pantheonsite.io/core/modules/system/css/components/clearfix.module.css?ryqmqm">
+		<link rel="stylesheet" media="all" href="https://dev-mccd-gc-intra.pantheonsite.io/core/modules/system/css/components/details.module.css?ryqmqm">
+		<link rel="stylesheet" media="all" href="https://dev-mccd-gc-intra.pantheonsite.io/core/modules/system/css/components/hidden.module.css?ryqmqm">
+		<link rel="stylesheet" media="all" href="https://dev-mccd-gc-intra.pantheonsite.io/core/modules/system/css/components/item-list.module.css?ryqmqm">
+		<link rel="stylesheet" media="all" href="https://dev-mccd-gc-intra.pantheonsite.io/core/modules/system/css/components/js.module.css?ryqmqm">
+		<link rel="stylesheet" media="all" href="https://dev-mccd-gc-intra.pantheonsite.io/core/modules/system/css/components/nowrap.module.css?ryqmqm">
+		<link rel="stylesheet" media="all" href="https://dev-mccd-gc-intra.pantheonsite.io/core/modules/system/css/components/position-container.module.css?ryqmqm">
+		<link rel="stylesheet" media="all" href="https://dev-mccd-gc-intra.pantheonsite.io/core/modules/system/css/components/progress.module.css?ryqmqm">
+		<link rel="stylesheet" media="all" href="https://dev-mccd-gc-intra.pantheonsite.io/core/modules/system/css/components/reset-appearance.module.css?ryqmqm">
+		<link rel="stylesheet" media="all" href="https://dev-mccd-gc-intra.pantheonsite.io/core/modules/system/css/components/resize.module.css?ryqmqm">
+		<link rel="stylesheet" media="all" href="https://dev-mccd-gc-intra.pantheonsite.io/core/modules/system/css/components/sticky-header.module.css?ryqmqm">
+		<link rel="stylesheet" media="all" href="https://dev-mccd-gc-intra.pantheonsite.io/core/modules/system/css/components/system-status-counter.css?ryqmqm">
+		<link rel="stylesheet" media="all" href="https://dev-mccd-gc-intra.pantheonsite.io/core/modules/system/css/components/system-status-report-counters.css?ryqmqm">
+		<link rel="stylesheet" media="all" href="https://dev-mccd-gc-intra.pantheonsite.io/core/modules/system/css/components/system-status-report-general-info.css?ryqmqm">
+		<link rel="stylesheet" media="all" href="https://dev-mccd-gc-intra.pantheonsite.io/core/modules/system/css/components/tabledrag.module.css?ryqmqm">
+		<link rel="stylesheet" media="all" href="https://dev-mccd-gc-intra.pantheonsite.io/core/modules/system/css/components/tablesort.module.css?ryqmqm">
+		<link rel="stylesheet" media="all" href="https://dev-mccd-gc-intra.pantheonsite.io/core/modules/system/css/components/tree-child.module.css?ryqmqm">
+		<link rel="stylesheet" media="all" href="https://dev-mccd-gc-intra.pantheonsite.io/core/themes/claro/css/components/toolbar.module.css?ryqmqm">
+		<link rel="stylesheet" media="all" href="https://dev-mccd-gc-intra.pantheonsite.io/modules/contrib/rebuild_cache_access/css/rebuild-cache-access.toolbar.css?ryqmqm">
+		<link rel="stylesheet" media="all" href="https://dev-mccd-gc-intra.pantheonsite.io/modules/contrib/eu_cookie_compliance/css/eu_cookie_compliance.bare.css?ryqmqm">
+		<link rel="stylesheet" media="all" href="https://dev-mccd-gc-intra.pantheonsite.io/core/themes/claro/css/state/toolbar.menu.css?ryqmqm">
+		<link rel="stylesheet" media="all" href="https://dev-mccd-gc-intra.pantheonsite.io/modules/contrib/paragraphs/css/paragraphs.unpublished.css?ryqmqm">
+		<link rel="stylesheet" media="all" href="https://dev-mccd-gc-intra.pantheonsite.io/modules/contrib/better_exposed_filters/css/better_exposed_filters.css?ryqmqm">
+		<link rel="stylesheet" media="all" href="https://dev-mccd-gc-intra.pantheonsite.io/core/themes/claro/css/theme/toolbar.theme.css?ryqmqm">
+		<link rel="stylesheet" media="all" href="https://dev-mccd-gc-intra.pantheonsite.io/core/themes/claro/css/theme/toolbar.icons.theme.css?ryqmqm">
+		<link rel="stylesheet" media="all" href="https://dev-mccd-gc-intra.pantheonsite.io/core/modules/user/css/user.icons.admin.css?ryqmqm">
+		<link rel="stylesheet" media="all" href="https://dev-mccd-gc-intra.pantheonsite.io/modules/contrib/admin_toolbar/admin_toolbar_tools/css/tools.css?ryqmqm">
+		<link rel="stylesheet" media="all" href="https://dev-mccd-gc-intra.pantheonsite.io/core/modules/shortcut/css/shortcut.theme.css?ryqmqm">
+		<link rel="stylesheet" media="all" href="https://dev-mccd-gc-intra.pantheonsite.io/core/modules/shortcut/css/shortcut.icons.theme.css?ryqmqm">
+		<link rel="stylesheet" media="all" href="https://dev-mccd-gc-intra.pantheonsite.io/modules/contrib/admin_toolbar/css/admin.toolbar.css?ryqmqm">
+		<link rel="stylesheet" media="all" href="https://dev-mccd-gc-intra.pantheonsite.io/modules/maricopa/mems/css/mems.admin.toolbar.css?ryqmqm">
+		<link rel="stylesheet" media="all" href="https://dev-mccd-gc-intra.pantheonsite.io/modules/contrib/webform/css/webform.admin.toolbar.css?ryqmqm">
+		<link rel="stylesheet" media="all" href="https://dev-mccd-gc-intra.pantheonsite.io/themes/maricopa/bootstrap_barrio/css/components/node.css?ryqmqm">
+		<link rel="stylesheet" media="all" href="https://dev-mccd-gc-intra.pantheonsite.io/themes/maricopa/bootstrap_barrio/css/components/affix.css?ryqmqm">
+		<link rel="stylesheet" media="all" href="https://dev-mccd-gc-intra.pantheonsite.io/themes/maricopa/bootstrap_barrio/css/components/alerts.css?ryqmqm">
+		<link rel="stylesheet" media="all" href="https://dev-mccd-gc-intra.pantheonsite.io/themes/maricopa/bootstrap_barrio/css/components/contextual.css?ryqmqm">
+		<link rel="stylesheet" media="all" href="https://dev-mccd-gc-intra.pantheonsite.io/themes/maricopa/bootstrap_barrio/css/components/field.css?ryqmqm">
+		<link rel="stylesheet" media="all" href="https://dev-mccd-gc-intra.pantheonsite.io/themes/maricopa/bootstrap_barrio/css/components/icons.css?ryqmqm">
+		<link rel="stylesheet" media="all" href="https://dev-mccd-gc-intra.pantheonsite.io/themes/maricopa/bootstrap_barrio/css/components/image-button.css?ryqmqm">
+		<link rel="stylesheet" media="all" href="https://dev-mccd-gc-intra.pantheonsite.io/themes/maricopa/bootstrap_barrio/css/components/item-list.css?ryqmqm">
+		<link rel="stylesheet" media="all" href="https://dev-mccd-gc-intra.pantheonsite.io/themes/maricopa/bootstrap_barrio/css/components/shortcut.css?ryqmqm">
+		<link rel="stylesheet" media="all" href="https://dev-mccd-gc-intra.pantheonsite.io/themes/maricopa/bootstrap_barrio/css/components/sidebar.css?ryqmqm">
+		<link rel="stylesheet" media="all" href="https://dev-mccd-gc-intra.pantheonsite.io/themes/maricopa/bootstrap_barrio/css/components/skip-link.css?ryqmqm">
+		<link rel="stylesheet" media="all" href="https://dev-mccd-gc-intra.pantheonsite.io/themes/maricopa/bootstrap_barrio/css/components/tableselect.css?ryqmqm">
+		<link rel="stylesheet" media="all" href="https://dev-mccd-gc-intra.pantheonsite.io/themes/maricopa/bootstrap_barrio/css/components/tablesort-indicator.css?ryqmqm">
+		<link rel="stylesheet" media="all" href="https://dev-mccd-gc-intra.pantheonsite.io/themes/maricopa/bootstrap_barrio/css/components/ui-dialog.css?ryqmqm">
+		<link rel="stylesheet" media="all" href="https://dev-mccd-gc-intra.pantheonsite.io/themes/maricopa/bootstrap_maricopa/css/background-image.css?ryqmqm">
+		<link rel="stylesheet" media="all" href="https://dev-mccd-gc-intra.pantheonsite.io/themes/maricopa/bootstrap_maricopa/css/roboto.css?ryqmqm">
+		<link rel="stylesheet" media="all" href="https://fonts.googleapis.com/css?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700">
+		<link rel="stylesheet" media="all" href="https://dev-mccd-gc-intra.pantheonsite.io/libraries/bootstrap/dist/css/bootstrap.css?ryqmqm">
+		<link rel="stylesheet" media="all" href="https://dev-mccd-gc-intra.pantheonsite.io/themes/maricopa/bootstrap_barrio/css/components/tabs.css?ryqmqm">
+		<link rel="stylesheet" media="all" href="https://dev-mccd-gc-intra.pantheonsite.io/themes/maricopa/bootstrap_barrio/css/components/form.css?ryqmqm">
+		<link rel="stylesheet" media="all" href="https://dev-mccd-gc-intra.pantheonsite.io/themes/maricopa/bootstrap_barrio/css/components/img-fluid.css?ryqmqm">
+		<link rel="stylesheet" media="all" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+		<link rel="stylesheet" media="all" href="https://dev-mccd-gc-intra.pantheonsite.io/themes/maricopa/bootstrap_maricopa/css/tooltips.css?ryqmqm">
+		<link rel="stylesheet" media="all" href="https://dev-mccd-gc-intra.pantheonsite.io/themes/maricopa/bootstrap_maricopa/css/header-website.css?ryqmqm">
+		<link rel="stylesheet" media="print" href="https://dev-mccd-gc-intra.pantheonsite.io/themes/maricopa/bootstrap_barrio/css/print.css?ryqmqm">
+		<link rel="stylesheet" media="all" href="https://dev-mccd-gc-intra.pantheonsite.io/themes/maricopa/bootstrap_maricopa/css/style.css?ryqmqm">
+		<link rel="stylesheet" media="all" href="https://dev-mccd-gc-intra.pantheonsite.io/themes/maricopa/cfw3/css/style.css?ryqmqm">
+		<link rel="stylesheet" media="all" href="https://dev-mccd-gc-intra.pantheonsite.io/themes/custom/gcc/css/style.css?ryqmqm">
+		<link rel="stylesheet" media="all" href="https://dev-mccd-gc-intra.pantheonsite.io/themes/custom/gcc_intra/css/style.css?ryqmqm">
+    	<script src="https://dev-mccd-gc-intra.pantheonsite.io/core/misc/touchevents-test.js?v=9.5.10"></script>
+		<script src="https://dev-mccd-gc-intra.pantheonsite.io/core/assets/vendor/modernizr/modernizr.min.js?v=3.11.7"></script>
+		<script src="https://dev-mccd-gc-intra.pantheonsite.io/core/misc/modernizr-additional-tests.js?v=3.11.7"></script>
+		<title>GCC Content Styles</title>
+	</head>
+	<body class="w-50 mx-auto paragraph paragraph--type--pb-text">
+		<p><code>&lt;body class="w-50 mx-auto paragraph paragraph--type--pb-text"&gt;</code></p>
+		<h1 class="border-bottom border-gcc-primary border-4">GCC Content Styles</h1>
+		<div class="alert alert-light mb-5">This entire page is comprised of content built utilizing what is available in GCC's current CF3 Bootstrap CSS and JS library. This entire page can be copied and pasted into any node's full HTML body in CFW3 and look and function the same as this page.</div>
+
+		<h2><a class="btn btn-outline-dark" data-bs-toggle="collapse" href="#general" role="button" aria-expanded="false" aria-controls="general">General Styles</a></h2>
+		<div id="general" class="collapse border p-3 mb-3">
+			<h3 class="mt-0">Aligning Text</h3>
+			<p>Moving forward, we will be utilizing Bootstrap to align text. Here are some examples:</p>
+			<h3>Padding &amp; Margins (Spacing)</h3>
+			<p>Modifying padding/margins of an element is very simple in Bootstrap. If you want to give elements more or less padding/margins than default (or set different padding attributes), see the Bootstrap documentation <a href="https://getbootstrap.com/docs/5.3/utilities/spacing/">here</a>. However, here are some examples:</p>
+		</div>
+		
+		<h2><a class="btn btn-outline-dark" data-bs-toggle="collapse" href="#alerts" role="button" aria-expanded="false" aria-controls="alerts">Alerts</a></h2>
+		<div id="alerts" class="collapse border p-3 mb-3">
+			<h3 class="mt-0">GCC Alerts</h3>
+			<p>See more information at <a href="https://getbootstrap.com/docs/5.3/components/alerts/" target="_blank">Bootstrap Alerts</a></p>
+			<p><code>&lt;div class="alert alert-gcc-primary"&gt;</code></p>
+			<div class="alert alert-gcc-primary" role="alert">
+				<h4 class="alert-heading">GCC Primary</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in ipsum ac nulla mattis ultrices. Fusce bibendum dapibus odio placerat laoreet. Curabitur erat ipsum, ullamcorper a tellus quis, luctus placerat nisi. Nullam fermentum, dolor in elementum mattis, velit sapien vulputate diam, eu laoreet sapien velit id mi.</p>
+				<hr>
+				<p class="mb-0">Sed porta eleifend lacus, non suscipit ipsum posuere quis.</p>
+			</div>
+			<p><code>&lt;div class="alert alert-gcc-secondary"&gt;</code></p>
+			<div class="alert alert-gcc-secondary" role="alert">
+				<h4 class="alert-heading">GCC Secondary</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in ipsum ac nulla mattis ultrices. Fusce bibendum dapibus odio placerat laoreet. Curabitur erat ipsum, ullamcorper a tellus quis, luctus placerat nisi. Nullam fermentum, dolor in elementum mattis, velit sapien vulputate diam, eu laoreet sapien velit id mi.</p>
+				<hr>
+				<p class="mb-0">Sed porta eleifend lacus, non suscipit ipsum posuere quis.</p>
+			</div>
+			<hr>
+			<h3>Default Alerts</h3>
+			<p><code>&lt;div class="alert alert-primary"&gt;</code></p>
+			<div class="alert alert-primary" role="alert">
+				<p><strong>Primary</strong><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in ipsum ac nulla mattis ultrices. Fusce bibendum dapibus odio placerat laoreet. Curabitur erat ipsum, ullamcorper a tellus quis, luctus placerat nisi. Nullam fermentum, dolor in elementum mattis, velit sapien vulputate diam, eu laoreet sapien velit id mi. Sed porta eleifend lacus, non suscipit ipsum posuere quis.</p>
+			</div>
+			<p><code>&lt;div class="alert alert-secondary"&gt;</code></p>
+			<div class="alert alert-secondary" role="alert">
+				<p><strong>Secondary</strong><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in ipsum ac nulla mattis ultrices. Fusce bibendum dapibus odio placerat laoreet. Curabitur erat ipsum, ullamcorper a tellus quis, luctus placerat nisi. Nullam fermentum, dolor in elementum mattis, velit sapien vulputate diam, eu laoreet sapien velit id mi. Sed porta eleifend lacus, non suscipit ipsum posuere quis.</p>
+			</div>
+			<p><code>&lt;div class="alert alert-light"&gt;</code></p>
+			<div class="alert alert-light" role="alert">
+				<p><strong>Light</strong><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in ipsum ac nulla mattis ultrices. Fusce bibendum dapibus odio placerat laoreet. Curabitur erat ipsum, ullamcorper a tellus quis, luctus placerat nisi. Nullam fermentum, dolor in elementum mattis, velit sapien vulputate diam, eu laoreet sapien velit id mi. Sed porta eleifend lacus, non suscipit ipsum posuere quis.</p>
+			</div>
+			<p><code>&lt;div class="alert alert-dark"&gt;</code></p>
+			<div class="alert alert-dark" role="alert">
+				<p><strong>Dark</strong><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in ipsum ac nulla mattis ultrices. Fusce bibendum dapibus odio placerat laoreet. Curabitur erat ipsum, ullamcorper a tellus quis, luctus placerat nisi. Nullam fermentum, dolor in elementum mattis, velit sapien vulputate diam, eu laoreet sapien velit id mi. Sed porta eleifend lacus, non suscipit ipsum posuere quis.</p>
+			</div>
+			<p><code>&lt;div class="alert alert-notify"&gt;</code></p>
+			<div class="alert alert-info" role="alert">
+				<p><strong>Notify</strong><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in ipsum ac nulla mattis ultrices. Fusce bibendum dapibus odio placerat laoreet. Curabitur erat ipsum, ullamcorper a tellus quis, luctus placerat nisi. Nullam fermentum, dolor in elementum mattis, velit sapien vulputate diam, eu laoreet sapien velit id mi. Sed porta eleifend lacus, non suscipit ipsum posuere quis.</p>
+			</div>
+			<p><code>&lt;div class="alert alert-success"&gt;</code></p>
+			<div class="alert alert-success" role="alert">
+				<p><strong>Success</strong><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in ipsum ac nulla mattis ultrices. Fusce bibendum dapibus odio placerat laoreet. Curabitur erat ipsum, ullamcorper a tellus quis, luctus placerat nisi. Nullam fermentum, dolor in elementum mattis, velit sapien vulputate diam, eu laoreet sapien velit id mi. Sed porta eleifend lacus, non suscipit ipsum posuere quis.</p>
+			</div>
+			<p><code>&lt;div class="alert alert-warning"&gt;</code></p>
+			<div class="alert alert-warning" role="alert">
+				<p><strong>Warning</strong><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in ipsum ac nulla mattis ultrices. Fusce bibendum dapibus odio placerat laoreet. Curabitur erat ipsum, ullamcorper a tellus quis, luctus placerat nisi. Nullam fermentum, dolor in elementum mattis, velit sapien vulputate diam, eu laoreet sapien velit id mi. Sed porta eleifend lacus, non suscipit ipsum posuere quis.</p>
+			</div>
+			<p><code>&lt;div class="alert alert-danger"&gt;</code></p>
+			<div class="alert alert-danger" role="alert">
+				<p><strong>Danger</strong><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in ipsum ac nulla mattis ultrices. Fusce bibendum dapibus odio placerat laoreet. Curabitur erat ipsum, ullamcorper a tellus quis, luctus placerat nisi. Nullam fermentum, dolor in elementum mattis, velit sapien vulputate diam, eu laoreet sapien velit id mi. Sed porta eleifend lacus, non suscipit ipsum posuere quis.</p>
+			</div>
+			<p><code>&lt;div class="alert alert-dismissible"&gt;</code></p>
+			<div class="alert alert-dismissible" role="alert">
+				<p><strong>Dismissible</strong><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in ipsum ac nulla mattis ultrices. Fusce bibendum dapibus odio placerat laoreet. Curabitur erat ipsum, ullamcorper a tellus quis, luctus placerat nisi. Nullam fermentum, dolor in elementum mattis, velit sapien vulputate diam, eu laoreet sapien velit id mi. Sed porta eleifend lacus, non suscipit ipsum posuere quis.</p>
+			</div>
+			<p><code>&lt;div class="alert alert-heading"&gt;</code></p>
+			<div class="alert alert-heading" role="alert">
+				<p><strong>Heading</strong><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in ipsum ac nulla mattis ultrices. Fusce bibendum dapibus odio placerat laoreet. Curabitur erat ipsum, ullamcorper a tellus quis, luctus placerat nisi. Nullam fermentum, dolor in elementum mattis, velit sapien vulputate diam, eu laoreet sapien velit id mi. Sed porta eleifend lacus, non suscipit ipsum posuere quis.</p>
+			</div>
+			<p><code>&lt;div class="alert alert-link"&gt;</code></p>
+			<div class="alert alert-link" role="alert">
+				<p><strong>Link</strong><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in ipsum ac nulla mattis ultrices. Fusce bibendum dapibus odio placerat laoreet. Curabitur erat ipsum, ullamcorper a tellus quis, luctus placerat nisi. Nullam fermentum, dolor in elementum mattis, velit sapien vulputate diam, eu laoreet sapien velit id mi. Sed porta eleifend lacus, non suscipit ipsum posuere quis.</p>
+			</div>
+			<hr>
+			<p><code>&lt;div class="alert alert-maricopa-blue"&gt;</code></p>
+			<div class="alert alert-maricopa-blue" role="alert">
+				<p><strong>Maricopa Blue</strong><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in ipsum ac nulla mattis ultrices. Fusce bibendum dapibus odio placerat laoreet. Curabitur erat ipsum, ullamcorper a tellus quis, luctus placerat nisi. Nullam fermentum, dolor in elementum mattis, velit sapien vulputate diam, eu laoreet sapien velit id mi. Sed porta eleifend lacus, non suscipit ipsum posuere quis.</p>
+			</div>
+			<div><a href="#alerts">Top</a></div>
+		</div>
+		
+		<h2><a class="btn btn-outline-dark" data-bs-toggle="collapse" href="#buttons" role="button" aria-expanded="false" aria-controls="buttons">Buttons</a></h2>
+		<div id="buttons" class="collapse border p-3 mb-3">
+			<h3 class="mt-0">GCC Buttons</h3>
+			<p>See more information at <a href="https://getbootstrap.com/docs/5.3/components/buttons/" target="_blank">Bootstrap Buttons</a></p>
+			
+			<p><code>&lt;a class="btn btn-gcc-primary" role="button"&gt;</code> or <code>&lt;button class="btn btn-gcc-primary"&gt;</code></p>
+			<p><a href="#" class="btn btn-gcc-primary" role="button">GCC Primary</a></p>
+			
+			<p><code>&lt;a class="btn btn-gcc-primary btn-lg" role="button"&gt;</code> or <code>&lt;button class="btn btn-gcc-primary btn-lg"&gt;</code></p>
+			<p><a href="#" class="btn btn-gcc-primary btn-lg" role="button">GCC Large Primary</a></p>
+			
+			<p><code>&lt;a class="btn btn-gcc-secondary" role="button"&gt;</code> or <code>&lt;button class="btn btn-gcc-secondary"&gt;</code></p>
+			<p><a href="#" class="btn btn-gcc-secondary" role="button">GCC Secondary</a></p>
+			
+			<p><code>&lt;a class="btn btn-gcc-secondary btn-lg" role="button&gt;</code> or <code>&lt;button class="btn btn-gcc-secondary btn-lg"&gt;</code></p>
+			<p><a href="#" class="btn btn-gcc-secondary btn-lg" role="button">GCC Large Secondary</a></p>
+			
+			<hr>
+			
+			<h3>Default Buttons</h3>
+			
+			<p><a href="#" class="btn btn-primary" role="button">Primary</a></p>
+			
+			<p><a href="#" class="btn btn-secondary" role="button">Secondary</a></p>
+			
+			<p><a href="#" class="btn btn-success" role="button">Success</a></p>
+			
+			<p><a href="#" class="btn btn-danger" role="button">Danger</a></p>
+			
+			<p><a href="#" class="btn btn-warning" role="button">Warning</a></p>
+			
+			<p><a href="#" class="btn btn-info" role="button">Info</a></p>
+			
+			<p><a href="#" class="btn btn-light" role="button">Light</a></p>
+			
+			<p><a href="#" class="btn btn-dark" role="button">Dark</a></p>
+			
+			<p><a href="#" class="btn btn-link" role="button">Link</a></p>
+			
+			<p><a href="#" class="btn btn-outline-primary" role="button">Primary</a></p>
+			
+			<p><a href="#" class="btn btn-outline-secondary" role="button">Secondary</a></p>
+			
+			<p><a href="#" class="btn btn-outline-success" role="button">Success</a></p>
+			
+			<p><a href="#" class="btn btn-outline-danger" role="button">Danger</a></p>
+			
+			<p><a href="#" class="btn btn-outline-warning" role="button">Warning</a></p>
+			
+			<p><a href="#" class="btn btn-outline-info" role="button">Info</a></p>
+			
+			<p><a href="#" class="btn btn-outline-light" role="button">Light</a></p>
+			
+			<p><a href="#" class="btn btn-outline-dark" role="button">Dark</a></p>
+			
+			<p class="mb-0"><a href="#" class="btn btn-outline-link" role="button">Link</a></p>
+			
+		</div>
+		
+		<h2><a class="btn btn-outline-dark" data-bs-toggle="collapse" href="#links" role="button" aria-expanded="false" aria-controls="links">Links</a></h2>
+		<div id="links" class="collapse border p-3 mb-3">
+			<h3 class="mt-0">GCC Links</h3>
+			<p>See more information at <a href="https://getbootstrap.com/docs/5.3/helpers/colored-links/" target="_blank">Bootstrap Colored Links</a></p>
+			<p><a href="#">Default link</a></p>
+			<p><a href="#" class="link-gcc-primary">GCC Primary link</a> <code>&lt;a class="link-gcc-primary"&gt;</code></p>
+			<p><a href="#" class="link-gcc-secondary">GCC Secondary link</a> <code>&lt;a class="link-gcc-secondary"&gt;</code></p>
+			<hr>
+			<h3>Default Links</h3>
+			<p><a href="#" class="link-primary">Primary link</a> <code>&lt;a class="link-primary"&gt;</code></p>
+			<p><a href="#" class="link-secondary">Secondary link</a> <code>&lt;a class="link-secondary"&gt;</code></p>
+			<p><a href="#" class="link-success">Success link</a> <code>&lt;a class="link-success"&gt;</code></p>
+			<p><a href="#" class="link-danger">Danger link</a> <code>&lt;a class="link-danger"&gt;</code></p>
+			<p><a href="#" class="link-warning">Warning link</a> <code>&lt;a class="link-warning"&gt;</code></p>
+			<p><a href="#" class="link-info">Info link</a> <code>&lt;a class="link-info"&gt;</code></p>
+			<p><a href="#" class="link-light">Light link</a> <code>&lt;a class="link-light"&gt;</code></p>
+			<p><a href="#" class="link-dark">Dark link</a> <code>&lt;a class="link-dark"&gt;</code></p>
+			<p><a href="#" class="link-body-emphasis">Emphasis link</a> <code>&lt;a class="link-body-emphasis"&gt;</code></p>
+		</div>
+		
+		<h2><a class="btn btn-outline-dark" data-bs-toggle="collapse" href="#lineHeight" role="button" aria-expanded="false" aria-controls="lineHeight">Line Height</a></h2>
+		<div id="lineHeight" class="collapse border p-3 mb-3">
+			<code>lh-1</code>
+			<p class="lh-1">This is a long paragraph written to show how the line-height of an element is affected by our utilities. Classes are applied to the element itself or sometimes the parent element. These classes can be customized as needed with our utility API.</p>
+			<code>lh-sm</code>
+			<p class="lh-sm">This is a long paragraph written to show how the line-height of an element is affected by our utilities. Classes are applied to the element itself or sometimes the parent element. These classes can be customized as needed with our utility API.</p>
+			<code>lh-base</code>
+			<p class="lh-base">This is a long paragraph written to show how the line-height of an element is affected by our utilities. Classes are applied to the element itself or sometimes the parent element. These classes can be customized as needed with our utility API.</p>
+			<code>lh-1g</code>
+			<p class="lh-lg">This is a long paragraph written to show how the line-height of an element is affected by our utilities. Classes are applied to the element itself or sometimes the parent element. These classes can be customized as needed with our utility API.</p>
+		</div>
+		
+		<h2><a class="btn btn-outline-dark" data-bs-toggle="collapse" href="#figs" role="button" aria-expanded="false" aria-controls="figs">Figures</a></h2>
+		<div id="figs" class="collapse border p-3 mb-3">
+			<p>Get more information at <a href="https://getbootstrap.com/docs/5.3/content/figures/" target="_blank">Bootstrap figures</a></p>
+		</div>
+		
+		<h2><a class="btn btn-outline-dark" data-bs-toggle="collapse" href="#embeds" role="button" aria-expanded="false" aria-controls="alerts">Embeds</a></h2>
+		<div id="embeds" class="collapse border p-3 mb-3">
+			<h3>Youtube</h3>
+			<p>Examples of embedding a Youtube video utilizing the Bootstrap 5 "<a href="https://getbootstrap.com/docs/5.3/helpers/ratio/" target="_blank">Ratio</a>" classes:</p>
+			<p><code class="language-html">&lt;div class="ratio ratio-16x9"&gt;</code></p>
+			<div class="ratio ratio-16x9"><iframe src="https://www.youtube.com/embed/_0ScDPNMej8?rel=0" allowfullscreen></iframe></div>
+			<p>&nbsp;</p>
+			<p><code class="language-html">&lt;div class="ratio ratio-4x3"&gt;</code></p>
+			<div class="ratio ratio-4x3"><iframe src="https://www.youtube.com/embed/_0ScDPNMej8?rel=0" allowfullscreen></iframe></div>
+		</div>
+		
+		<h2><a class="btn btn-outline-dark" data-bs-toggle="collapse" href="#code" role="button" aria-expanded="false" aria-controls="code">&lt;code&gt;</a></h2>
+		<div id="code" class="collapse border p-3 mb-3">
+			<p>The following is built using the &lt;pre&gt; element, but in order to not break the page layout in CF3 we need to add the class "container-fluid".</p>
+			<pre class="container-fluid"><code>&lt;p&gt;To switch directories, type &lt;kbd&gt;cd&lt;/kbd&gt; followed by the name of the directory.&lt;br&gt;To edit settings, press &lt;kbd&gt;&lt;kbd&gt;ctrl&lt;/kbd&gt; + &lt;kbd&gt;,&lt;/kbd&gt;&lt;/kbd&gt;&lt;/p&gt;</code></pre>
+			<p>To switch directories, type <kbd>cd</kbd> followed by the name of the directory.<br>To edit settings, press <kbd><kbd>ctrl</kbd> + <kbd>,</kbd></kbd></p>
+		</div>
+
+		<!-- ---------------------------------------------- Bootstrap JavaScript ---------------------------------------------- -->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+		<!-- ---------------------------------------------- Bootstrap JavaScript ---------------------------------------------- -->
+		<p>&nbsp;</p>
+	</body>
+</html>
